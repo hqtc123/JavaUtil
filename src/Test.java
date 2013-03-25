@@ -1,3 +1,5 @@
+import sort.QuickSort;
+
 /**
  * Created with IntelliJ IDEA.
  * User: hqtc
@@ -8,6 +10,11 @@
 public class Test{
     public static void main(String[] args){
         Integer integer=new Integer(9);
-        System.out.println("hello");
+        int[] nums={3,6,4};
+        QuickSort quickSort=new QuickSort();
+        quickSort.sort(nums,0,nums.length-1);
+        for(Integer item:nums){
+            System.out.print(item+" ");
+        }
     }
 }
