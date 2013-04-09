@@ -30,5 +30,10 @@ public class QuickSort {
             sort(num, low, middle - 1);
             sort(num, middle + 1, high);
         }
+        int i;
+        QuickSort t = new QuickSort();
+        t.new B();
+        Math.round(87456829346523452345234.12f);
     }
+    class B{};
 }

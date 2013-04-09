@@ -1,4 +1,4 @@
-package thread;
+package concurrency.thread;
 
 /**
  * Created with IntelliJ IDEA.
@@ -43,7 +43,7 @@ public class Example3 extends Thread {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
 
-        System.out.println("Asking thread to stop ..");
+        System.out.println("Asking concurrency.thread to stop ..");
         thread.stop = true;  //如果线程处于阻塞状态，则不会检测到此变量的改变
 
         thread.interrupt();   //线程阻塞时才会起到作用

@@ -1,4 +1,4 @@
-package thread;
+package concurrency.thread;
 
 /**
  * Created with IntelliJ IDEA.
@@ -39,7 +39,7 @@ public class Example2 extends Thread {
         } catch (InterruptedException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
-        System.out.println("Asking thread to stop ....");
+        System.out.println("Asking concurrency.thread to stop ....");
 
         thread.stop=true;
 
