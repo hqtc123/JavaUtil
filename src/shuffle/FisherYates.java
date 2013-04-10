@@ -1,7 +1,5 @@
 package shuffle;
 
-import util.PrintArr;
-
 import java.util.Random;
 
 /**
@@ -25,12 +23,12 @@ public class FisherYates {
 
 
     public static void main(String [] args){
-        FisherYates f=new FisherYates();
-        int[] arr={2,1,3,4,5,6,7,8,9,10,12,11};
-        PrintArr.printArr(arr);
-        for (int i=0;i<10;i++){
-            f.shuffle(arr);
-            PrintArr.printArr(arr);
-        }
+//        FisherYates f=new FisherYates();
+//        int[] arr={2,1,3,4,5,6,7,8,9,10,12,11};
+//        PrintArr.printArr(arr);
+//        for (int i=0;i<10;i++){
+//            f.shuffle(arr);
+//            PrintArr.printArr(arr);
+//        }
     }
 }
