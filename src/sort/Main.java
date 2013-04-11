@@ -13,9 +13,12 @@ public class Main {
     public static void main(String[] args) {
         int[] nums = {2, 4, 5, 6, 26, 78, 3, 2, 45, 21};
 
-        InsertionSort sort = new InsertionSort();
-        sort.sort(nums);
+//        InsertionSort sort = new InsertionSort();
+//        sort.sort(nums);
 
+        BubbleSort sort1=new BubbleSort();
+        sort1.sort(nums);
         PrintArr.printIntArr(nums);
+
     }
 }
