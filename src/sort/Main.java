@@ -16,8 +16,12 @@ public class Main {
 //        InsertionSort sort = new InsertionSort();
 //        sort.sort(nums);
 
-        BubbleSort sort1=new BubbleSort();
-        sort1.sort(nums);
+//        BubbleSort sort1=new BubbleSort();
+//        sort1.sort(nums);
+
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.mergeSort(nums, 1, nums.length);
+
         PrintArr.printIntArr(nums);
 
     }
