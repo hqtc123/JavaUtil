@@ -67,4 +67,35 @@ public class RBTree<T extends Comparable<T>> {
             }
         }
     }
+
+    public void fixAfterInsertion(RBNode node) {
+        node.color = RED;
+
+        while (node != null && node != root && node.parent.color == RED) {
+
+        }
+    }
+
+    private RBNode<T> leftOf(RBNode<T> node) {
+        return node == null ? null : node.left;
+    }
+
+    private RBNode<T> rightOf(RBNode<T> node) {
+        return node == null ? null : node.right;
+    }
+
+    private void rotateLeft(RBNode<T> node) {
+        if (node != null) {
+            RBNode<T> r = node.right;
+            RBNode<T> q = r.left;
+
+            node.right = q;
+
+            if (q != null) {
+                q.parent = node;
+            }
+
+
+        }
+    }
 }
