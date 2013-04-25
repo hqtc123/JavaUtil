@@ -32,8 +32,8 @@ public class RotateString {
         return new String(arr);
     }
 
-   public static void main(String[] args){
-       String str="sklfjh;aofv";
-      System.out.println(RotateString.rotateString(str,2));
-   }
+    public static void main(String[] args) {
+        String str = "sklfjh;aofv";
+        System.out.println(RotateString.rotateString(str, 2));
+    }
 }
