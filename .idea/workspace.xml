@@ -52,6 +52,7 @@
     <file path="/ArrSumMax.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1366897220567" ignored="false" />
     <file path="/BigInteger.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1366968735679" ignored="false" />
     <file path="/Tencent2013.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1366983121672" ignored="false" />
+    <file path="/WebCrawler.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367032758264" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,59 +147,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MergeSort.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
+      <file leaf-file-name="WebCrawler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="20" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="refrence.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reflection/refrence.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="6" selection-end="71" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mian.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/reflection/Mian.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="48" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrSumMax.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/ArrSumMax.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="30" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tencent2013.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/Tencent2013.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="49" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tencent2013.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/datastruture/Tencent2013.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="21" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.2761905">
+            <state line="129" column="19" selection-start="4335" selection-end="4335" vertical-scroll-proportion="0.94180703">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#914#922#0" expanded="true" />
+                <element signature="e#756#783#0" expanded="true" />
+                <element signature="e#834#842#0" expanded="true" />
+                <element signature="e#894#902#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URL.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/net/URL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="211" column="19" selection-start="7259" selection-end="7259" vertical-scroll-proportion="-8.038462">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -213,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/concurrency/thread/produceandconsumer/Main.java" />
         <option value="$PROJECT_DIR$/src/concurrency/thread/produceandconsumer/Info.java" />
         <option value="$PROJECT_DIR$/src/concurrency/thread/produceandconsumer/Producer.java" />
         <option value="$PROJECT_DIR$/src/concurrency/thread/produceandconsumer/Consumer.java" />
@@ -229,12 +195,13 @@
         <option value="$PROJECT_DIR$/src/util/BigInt.java" />
         <option value="$PROJECT_DIR$/src/interview/Tencent2013.java" />
         <option value="$PROJECT_DIR$/src/datastruture/Tencent2013.java" />
+        <option value="$PROJECT_DIR$/src/crawler/WebCrawler.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="427" />
-    <option name="y" value="25" />
+    <option name="x" value="433" />
+    <option name="y" value="15" />
     <option name="width" value="947" />
     <option name="height" value="853" />
   </component>
@@ -266,7 +233,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -299,24 +265,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForLearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForLearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -332,30 +280,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForLearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ForLearn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastruture" />
+              <option name="myItemId" value="crawler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -616,7 +547,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="427" y="25" width="947" height="853" extended-state="1" />
+    <frame x="433" y="15" width="947" height="853" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -630,18 +561,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2412231" sideWeight="0.69164264" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18459795" sideWeight="0.14265129" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18459795" sideWeight="0.15994236" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18459795" sideWeight="0.84726226" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17327294" sideWeight="0.8299712" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30835736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4332893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2412231" sideWeight="0.69164264" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -706,35 +637,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/concurrency/thread/produceandconsumer/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="72" selection-start="395" selection-end="395" vertical-scroll-proportion="0.35919055" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/sort.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="83" selection-start="130" selection-end="130" vertical-scroll-proportion="0.1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reflection/refrence.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="6" selection-end="71" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/tencent2012.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="41" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/RotateString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="9" selection-start="552" selection-end="558" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="9" selection-start="552" selection-end="558" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
@@ -746,9 +656,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastruture/RBTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="5" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="35" column="5" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/java 存储区">
@@ -758,42 +666,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/StringCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="41" selection-start="1561" selection-end="1561" vertical-scroll-proportion="0.7287671">
-          <folding />
-        </state>
+        <state line="55" column="41" selection-start="1561" selection-end="1561" vertical-scroll-proportion="0.7287671" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.33665836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reflection/Mian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="48" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="20" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.33665836" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/math/BigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1341" column="38" selection-start="48096" selection-end="48096" vertical-scroll-proportion="0.5480226">
-          <folding />
-        </state>
+        <state line="1341" column="38" selection-start="48096" selection-end="48096" vertical-scroll-proportion="0.5480226" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/ArrSumMax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="30" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+        <state line="31" column="13" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/Tencent2013.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="49" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
+        <state line="23" column="47" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -807,10 +702,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/datastruture/Tencent2013.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="21" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.2761905">
+        <state line="63" column="21" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#914#922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reflection/Mian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="48" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/net/URLStreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="44" selection-start="5121" selection-end="5121" vertical-scroll-proportion="0.3323124">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="19" selection-start="7259" selection-end="7259" vertical-scroll-proportion="-8.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="19" selection-start="4335" selection-end="4335" vertical-scroll-proportion="0.94180703">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#756#783#0" expanded="true" />
+            <element signature="e#834#842#0" expanded="true" />
+            <element signature="e#894#902#0" expanded="true" />
           </folding>
         </state>
       </provider>
