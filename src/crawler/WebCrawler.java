@@ -7,6 +7,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created with IntelliJ IDEA.
@@ -128,5 +131,20 @@ public class WebCrawler implements Runnable {
             return url.substring(0, index + 3) + url.substring(index + 7);
         }
         return url;
+    }
+
+    //analyze the page and find the links
+    private ArrayList<String> retrieveLinks(URL pageUrl,String pageContents,HashSet<String> crawlList,
+                                            boolean limitHost){
+        Pattern p=Pattern.compile("<a\\s+href\\s*=\\s*\"?(.*?)[\"|>]",Pattern.CASE_INSENSITIVE);
+        Matcher m=p.matcher(pageContents);
+        ArrayList<String> linkList=new ArrayList<String>();
+        while (m.find()){
+            String link=m.group(1).trim();
+            if(link.length()<1){
+                continue;;
+            }
+            //skip the link points to the page itself
+        }
     }
 }
