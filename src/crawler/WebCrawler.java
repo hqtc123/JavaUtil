@@ -8,6 +8,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -134,17 +135,139 @@ public class WebCrawler implements Runnable {
     }
 
     //analyze the page and find the links
-    private ArrayList<String> retrieveLinks(URL pageUrl,String pageContents,HashSet<String> crawlList,
-                                            boolean limitHost){
-        Pattern p=Pattern.compile("<a\\s+href\\s*=\\s*\"?(.*?)[\"|>]",Pattern.CASE_INSENSITIVE);
-        Matcher m=p.matcher(pageContents);
-        ArrayList<String> linkList=new ArrayList<String>();
-        while (m.find()){
-            String link=m.group(1).trim();
-            if(link.length()<1){
-                continue;;
+    private ArrayList<String> retrieveLinks(URL pageUrl, String pageContents, HashSet<String> crawlList,
+                                            boolean limitHost) {
+        Pattern p = Pattern.compile("<a\\s+href\\s*=\\s*\"?(.*?)[\"|>]", Pattern.CASE_INSENSITIVE);
+        Matcher m = p.matcher(pageContents);
+        ArrayList<String> linkList = new ArrayList<String>();
+        while (m.find()) {
+            String link = m.group(1).trim();
+            if (link.length() < 1) {
+                continue;
             }
             //skip the link points to the page itself
+            if (link.charAt(0) == '#') {
+                continue;
+            }
+            if (link.indexOf("mailto:") > -1) {
+                continue;
+            }
+            if (link.toLowerCase().indexOf("javascript") > -1) {
+                continue;
+            }
+
+            if (link.indexOf("://") == -1) {
+                if (link.charAt(0) == '/') {
+                    //deal the absolute path
+                    link = "http://" + pageUrl.getHost() + ":" + pageUrl.getPort() + "/" + link;
+                } else {
+                    String file = pageUrl.getFile();
+                    if (file.indexOf("/") == -1) {
+                        link = "http://" + pageUrl.getHost() + ":" + pageUrl.getPath() + "/" + link;
+                    } else {
+                        String path = file.substring(0, file.indexOf("/") + 1);
+                        link = "http://" + pageUrl.getHost() + ":" + pageUrl.getPath() + path + link;
+                    }
+                }
+            }
+            int index = link.indexOf("#");
+            if (index > -1) {
+                link = link.substring(0, index);
+            }
+
+            link = removeWWW(link);
+
+            URL verifiedUrl = verifyUrl(link);
+            if (verifiedUrl == null) {
+                continue;
+            }
+            // limit the host, abandon the urls not satisfy require
+            if (limitHost && !pageUrl.getHost().toLowerCase().equals(verifiedUrl.getHost().toLowerCase())) {
+                continue;
+            }
+            if (crawlList.contains(link)) {
+                continue;
+            }
+            linkList.add(link);
         }
+        return linkList;
+    }
+
+    //search the download page , find if there exits the string
+    private boolean searchStringMatches(String pageCotents, String str,
+                                        boolean caseSensitive) {
+        String searchContents = pageCotents;
+        if (!caseSensitive) {
+            searchContents = pageCotents.toLowerCase();
+        }
+
+        Pattern p = Pattern.compile("[\\s]+");
+        String[] terms = p.split(str);
+        for (int i = 0; i < terms.length; i++) {
+            if (caseSensitive) {
+                if (searchContents.indexOf(terms[i]) == -1) {
+                    return false;
+                }
+            } else {
+                if (searchContents.indexOf(terms[i].toLowerCase()) == -1) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    // the main search method
+    public ArrayList<String> crawl(String startUrl, int maxUrls, String searchString,
+                                   boolean limitHos, boolean caseSensitive) {
+        System.out.println("searchString:" + searchString);
+        HashSet<String> crawlList = new HashSet<String>();
+        LinkedHashSet<String> toCrawlList = new LinkedHashSet<String>();
+
+        if (maxUrls < 1) {
+            errorList.add("Invalid max urls value :");
+        }
+
+        if (searchString.length() < 1) {
+            errorList.add("No valid search string.");
+        }
+        if (errorList.size() > 0) {
+            System.out.println("Error occurs:  ");
+            return errorList;
+        }
+
+        startUrl = removeWWW(startUrl);
+
+        toCrawlList.add(startUrl);
+        while (toCrawlList.size() > 0) {
+            if (maxUrls != -1) {
+                if (crawlList.size() == maxUrls) {
+                    break;
+                }
+            }
+
+            String url = toCrawlList.iterator().next();
+            toCrawlList.remove(url);
+            URL verifiedUrl = verifyUrl(url);
+
+            if (!isRobotAllowed(verifiedUrl)) {
+                continue;
+            }
+
+            crawlList.add(url);
+            String pageContents = downloadPage(verifiedUrl);
+
+            if (pageContents != null && pageContents.length() > 0) {
+                ArrayList<String> links = retrieveLinks(verifiedUrl,
+                        pageContents, crawlList, limitHos);
+                toCrawlList.addAll(links);
+
+                if (searchStringMatches(pageContents, searchString, caseSensitive)) {
+                    resultList.add(url);
+                    System.out.println(url);
+                }
+            }
+        }
+        return resultList;
     }
 }

@@ -27,7 +27,7 @@
     <file path="/Example3.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1365304491497" ignored="false" />
     <file path="/TaskExecutionWebServer.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1365473259376" ignored="false" />
     <file path="/ConcurrentCalculator.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1365497072664" ignored="false" />
-    <file path="/Main.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1365736221807" ignored="false" />
+    <file path="/Main.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367117421948" ignored="false" />
     <file path="/InsertionSort.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1365564045803" ignored="false" />
     <file path="$PROJECT_DIR$/../soaFirst/src/schema/Department.xsd" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1365595042280" ignored="false" />
     <file path="/Department.xsd" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1365595041968" ignored="false" />
@@ -52,7 +52,7 @@
     <file path="/ArrSumMax.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1366897220567" ignored="false" />
     <file path="/BigInteger.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1366968735679" ignored="false" />
     <file path="/Tencent2013.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1366983121672" ignored="false" />
-    <file path="/WebCrawler.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367068565624" ignored="false" />
+    <file path="/WebCrawler.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367117218813" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +61,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ForLearn$Test.coverage" NAME="Test Coverage Results" MODIFIED="1363959754879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ForLearn$Tencent2013.coverage" NAME="Tencent2013 Coverage Results" MODIFIED="1366980770319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>interview.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/ForLearn$Test.coverage" NAME="Test Coverage Results" MODIFIED="1363959754879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -73,7 +73,22 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/shuffle/FisherYates.java" line="28" class="shuffle.FisherYates" package="shuffle">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -108,22 +123,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/shuffle/FisherYates.java" line="28" class="shuffle.FisherYates" package="shuffle">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -133,13 +133,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WebCrawler.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WebCrawler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="28" selection-start="4896" selection-end="4896" vertical-scroll-proportion="0.5365854">
+            <state line="46" column="45" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-21.28">
               <folding>
-                <element signature="e#4830#4838#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#878#905#0" expanded="true" />
+                <element signature="e#956#964#0" expanded="true" />
+                <element signature="e#1016#1024#0" expanded="true" />
+                <element signature="e#4872#4880#0" expanded="true" />
+                <element signature="e#7891#7899#0" expanded="true" />
+                <element signature="e#7964#7972#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/crawler/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="37" selection-start="406" selection-end="406" vertical-scroll-proportion="0.7112299">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -154,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/concurrency/thread/produceandconsumer/Info.java" />
         <option value="$PROJECT_DIR$/src/concurrency/thread/produceandconsumer/Producer.java" />
         <option value="$PROJECT_DIR$/src/concurrency/thread/produceandconsumer/Consumer.java" />
         <option value="$PROJECT_DIR$/src/sort/MergeSort.java" />
@@ -170,14 +184,15 @@
         <option value="$PROJECT_DIR$/src/interview/Tencent2013.java" />
         <option value="$PROJECT_DIR$/src/datastruture/Tencent2013.java" />
         <option value="$PROJECT_DIR$/src/crawler/WebCrawler.java" />
+        <option value="$PROJECT_DIR$/src/crawler/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="y" value="31" />
-    <option name="width" value="993" />
-    <option name="height" value="774" />
+    <option name="x" value="475" />
+    <option name="y" value="175" />
+    <option name="width" value="952" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -207,8 +222,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,16 +280,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -282,29 +297,7 @@
       <recent name="pattern.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tencent2013">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="sort.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ForLearn" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="tencent2012" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -399,6 +392,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="crawler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="crawler.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ForLearn" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -411,6 +426,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -439,19 +467,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -491,19 +506,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.tencent2012" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RotateString" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StringCompare" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Tencent2013" />
+      <item index="0" class="java.lang.String" itemvalue="Application.tencent2012" />
+      <item index="1" class="java.lang.String" itemvalue="Application.RotateString" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StringCompare" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Tencent2013" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Tencent2013" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
         <item index="1" class="java.lang.String" itemvalue="Application.Tencent2013" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StringCompare" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RotateString" />
-        <item index="4" class="java.lang.String" itemvalue="Application.tencent2012" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Tencent2013" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StringCompare" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RotateString" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -526,7 +541,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="31" width="993" height="774" extended-state="0" />
+    <frame x="475" y="175" width="952" height="739" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -540,17 +555,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18459795" sideWeight="0.15994236" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15069968" sideWeight="0.8299712" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30835736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12837838" sideWeight="0.69310343" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30689654" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4332893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2412231" sideWeight="0.69164264" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -616,6 +631,21 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="28" selection-start="4344" selection-end="4344" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#878#905#0" expanded="true" />
+            <element signature="e#956#964#0" expanded="true" />
+            <element signature="e#1016#1024#0" expanded="true" />
+            <element signature="e#4872#4880#0" expanded="true" />
+            <element signature="e#7891#7899#0" expanded="true" />
+            <element signature="e#7964#7972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/tencent2012.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="41" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" />
@@ -641,19 +671,32 @@
         <state line="46" column="48" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0/src.zip!/java/util/regex/Matcher.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/util/AbstractCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="482" column="18" selection-start="16900" selection-end="16900" vertical-scroll-proportion="0.33275262">
+        <state line="330" column="19" selection-start="11107" selection-end="11107" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="28" selection-start="4896" selection-end="4896" vertical-scroll-proportion="0.5365854">
+        <state line="46" column="45" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-21.28">
           <folding>
-            <element signature="e#4830#4838#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#878#905#0" expanded="true" />
+            <element signature="e#956#964#0" expanded="true" />
+            <element signature="e#1016#1024#0" expanded="true" />
+            <element signature="e#4872#4880#0" expanded="true" />
+            <element signature="e#7891#7899#0" expanded="true" />
+            <element signature="e#7964#7972#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawler/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="406" selection-end="406" vertical-scroll-proportion="0.7112299">
+          <folding />
         </state>
       </provider>
     </entry>
