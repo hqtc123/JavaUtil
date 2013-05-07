@@ -56,6 +56,10 @@
     <file path="/TriSumZero.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367464497951" ignored="false" />
     <file path="/MaxDiff.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367466675918" ignored="false" />
     <file path="/AddWithoutMathSymbol.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367494396362" ignored="false" />
+    <file path="$PROJECT_DIR$/../soaFirst/home2/src/com/hqtc/servlet/StuServlet.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367673757892" ignored="false" />
+    <file path="/StuServlet.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367673736420" ignored="false" />
+    <file path="/BufferBuilder.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367895247700" ignored="false" />
+    <file path="/IO.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1367914196083" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +80,22 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/shuffle/FisherYates.java" line="28" class="shuffle.FisherYates" package="shuffle">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -111,22 +131,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/shuffle/FisherYates.java" line="28" class="shuffle.FisherYates" package="shuffle">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -136,50 +140,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WebCrawler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
+      <file leaf-file-name="Lucene.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/crawler/lucene/learn/Lucene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="45" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
+            <state line="9" column="19" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crawler/Main.java">
+      <file leaf-file-name="BufferBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/str/BufferBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="37" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+            <state line="11" column="59" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriSumZero.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/TriSumZero.java">
+      <file leaf-file-name="IO.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/IO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="24" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
+            <state line="27" column="81" selection-start="808" selection-end="808" vertical-scroll-proportion="0.89444447">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#805#825#0" expanded="true" />
-                <element signature="e#1417#1426#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxDiff.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/MaxDiff.java">
+      <file leaf-file-name="StringBuilder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/lang/StringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="55" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddWithoutMathSymbol.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interview/AddWithoutMathSymbol.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="40" selection-start="260" selection-end="260" vertical-scroll-proportion="0.54079694">
+            <state line="95" column="11" selection-start="3182" selection-end="3182" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,8 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/interview/tencent2012.java" />
-        <option value="$PROJECT_DIR$/src/sort/Main.java" />
         <option value="$PROJECT_DIR$/src/datastruture/RBTree.java" />
         <option value="$PROJECT_DIR$/src/interview/RotateString.java" />
         <option value="$PROJECT_DIR$/src/interview/StringCompare.java" />
@@ -211,13 +202,15 @@
         <option value="$PROJECT_DIR$/src/interview/TriSumZero.java" />
         <option value="$PROJECT_DIR$/src/interview/MaxDiff.java" />
         <option value="$PROJECT_DIR$/src/interview/AddWithoutMathSymbol.java" />
+        <option value="$PROJECT_DIR$/src/str/BufferBuilder.java" />
+        <option value="$PROJECT_DIR$/src/io/IO.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="289" />
-    <option name="y" value="85" />
-    <option name="width" value="952" />
+    <option name="x" value="292" />
+    <option name="y" value="86" />
+    <option name="width" value="958" />
     <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -249,6 +242,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,7 +289,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interview" />
+              <option name="myItemId" value="str" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,27 +307,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
+              <option name="myItemId" value="io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../httppractice" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -341,51 +337,7 @@
       <recent name="pattern.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddWithoutMathSymbol">
-    <configuration default="false" name="RotateString" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="interview.RotateString" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ForLearn" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringCompare" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="interview.StringCompare" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ForLearn" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.IO">
     <configuration default="false" name="Tencent2013" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -444,6 +396,50 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="interview.AddWithoutMathSymbol" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ForLearn" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BufferBuilder" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="str.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="str.BufferBuilder" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ForLearn" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IO" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="io.IO" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -550,19 +546,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RotateString" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StringCompare" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Tencent2013" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AddWithoutMathSymbol" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Tencent2013" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AddWithoutMathSymbol" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BufferBuilder" />
+      <item index="4" class="java.lang.String" itemvalue="Application.IO" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AddWithoutMathSymbol" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Tencent2013" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Tencent2013" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StringCompare" />
+        <item index="0" class="java.lang.String" itemvalue="Application.IO" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BufferBuilder" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AddWithoutMathSymbol" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Tencent2013" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -585,7 +581,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="85" width="952" height="737" extended-state="0" />
+    <frame x="292" y="86" width="958" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -599,13 +595,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268921" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18459795" sideWeight="0.15994236" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12837838" sideWeight="0.6937716" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25452814" sideWeight="0.6937716" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30622837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -675,110 +671,189 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="45" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawler/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="45" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawler/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="28" selection-start="4344" selection-end="4344" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/tencent2012.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="20" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datastruture/RBTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="5" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="466" selection-end="466" vertical-scroll-proportion="0.33665836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reflection/Mian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="48" selection-start="1458" selection-end="1458" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/util/AbstractCollection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="330" column="19" selection-start="11107" selection-end="11107" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
+    <entry file="file://$PROJECT_DIR$/src/interview/StringCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="45" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="46" column="57" selection-start="1292" selection-end="1292" vertical-scroll-proportion="0.38696536" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crawler/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/interview/RotateString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="37" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="22" column="45" selection-start="542" selection-end="542" vertical-scroll-proportion="0.49525616" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/TriSumZero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="24" selection-start="1357" selection-end="1357" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#805#825#0" expanded="true" />
-            <element signature="e#1417#1426#0" expanded="true" />
-          </folding>
+        <state line="37" column="50" selection-start="952" selection-end="952" vertical-scroll-proportion="0.112840466" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawler/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="34" selection-start="400" selection-end="400" vertical-scroll-proportion="0.4686907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawler/WebCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="30" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.7762646">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/MaxDiff.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="55" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="39" selection-start="366" selection-end="366" vertical-scroll-proportion="0.49525616" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/AddWithoutMathSymbol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="40" selection-start="260" selection-end="260" vertical-scroll-proportion="0.54079694">
+        <state line="17" column="28" selection-start="325" selection-end="325" vertical-scroll-proportion="0.5509091" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/ArrSumMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="44" selection-start="674" selection-end="674" vertical-scroll-proportion="0.41272727" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/Tencent2013.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="330" selection-end="330" vertical-scroll-proportion="0.3181818" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/tencent2012.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="41" selection-start="589" selection-end="589" vertical-scroll-proportion="0.5181818" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crawler/lucene/learn/Lucene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="11" selection-start="4055" selection-end="4055" vertical-scroll-proportion="1.2654545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="11" selection-start="3182" selection-end="3182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/str/BufferBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="59" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/IO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="81" selection-start="808" selection-end="808" vertical-scroll-proportion="0.89444447">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ForLearn</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lucene-core-4.2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
