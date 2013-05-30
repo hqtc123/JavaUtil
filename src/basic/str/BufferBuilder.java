@@ -1,4 +1,4 @@
-package str;
+package basic.str;
 
 /**
  * Created with IntelliJ IDEA.

@@ -1,4 +1,4 @@
-package sort;
+package datastruture.sort;
 
 import util.PrintArr;
 
@@ -13,11 +13,11 @@ public class Main {
     public static void main(String[] args) {
         int[] nums = {2, 4, 5, 6, 26, 78, 3, 2, 45, 21};
 
-//        InsertionSort sort = new InsertionSort();
-//        sort.sort(nums);
+//        InsertionSort datastruture.sort = new InsertionSort();
+//        datastruture.sort.datastruture.sort(nums);
 
 //        BubbleSort sort1=new BubbleSort();
-//        sort1.sort(nums);
+//        sort1.datastruture.sort(nums);
 
         MergeSort mergeSort = new MergeSort();
         mergeSort.mergeSort(nums, 1, nums.length);

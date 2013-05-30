@@ -1,4 +1,4 @@
-package sort;
+package datastruture.sort;
 
 /**
  * Created with IntelliJ IDEA.
