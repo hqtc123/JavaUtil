@@ -1,4 +1,4 @@
 learnJava
 =========
 
-learn  true java ，for a good job 
+learn  true java ，for my student career
