@@ -12,9 +12,10 @@ import java.net.Socket;
  */
 public class Client {
     private Socket s;
-    public Client(){
+
+    public Client() {
         try {
-            this.s=new Socket("127.0.0.1",9001);
+            this.s = new Socket("127.0.0.1", 4700);
             this.s.getOutputStream();
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
