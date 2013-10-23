@@ -67,6 +67,7 @@
     <file path="/Supper.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1369915063694" ignored="false" />
     <file path="/BClass.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1369915254574" ignored="false" />
     <file path="/AClass.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1369915310214" ignored="false" />
+    <file path="/LinkedList.java" changelist="7b7275ac-3d92-4611-afdf-bd80005462c5" time="1382496720873" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,84 +151,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Lucene.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/crawler/lucene/learn/Lucene.java">
+      <file leaf-file-name="QuickSort.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/datastruture/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
+            <state line="19" column="44" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BufferBuilder.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/basic/str/BufferBuilder.java">
+      <file leaf-file-name="LinkedList.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/datastruture/sort/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="86" selection-start="239" selection-end="239" vertical-scroll-proportion="0.6612022">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestArray.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/TestArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/socket/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="63" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/StaticTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Supper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/inherit/Supper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="23" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AClass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/cyclereference/AClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="38" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/socket/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="30" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BClass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/cyclereference/BClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="10" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+            <state line="55" column="47" selection-start="1184" selection-end="1184" vertical-scroll-proportion="1.5245478">
               <folding />
             </state>
           </provider>
@@ -243,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/crawler/WebCrawler.java" />
         <option value="$PROJECT_DIR$/src/crawler/Main.java" />
         <option value="$PROJECT_DIR$/src/interview/TriSumZero.java" />
         <option value="$PROJECT_DIR$/src/interview/MaxDiff.java" />
@@ -252,13 +187,14 @@
         <option value="$PROJECT_DIR$/src/io/IO.java" />
         <option value="$PROJECT_DIR$/src/yuanjing/TestArray.java" />
         <option value="$PROJECT_DIR$/src/basic/yuanjing/TestArray.java" />
-        <option value="$PROJECT_DIR$/src/basic/yuanjing/StaticTest.java" />
         <option value="$PROJECT_DIR$/src/basic/yuanjing/inherit/Supper.java" />
         <option value="$PROJECT_DIR$/src/basic/yuanjing/cyclereference/BClass.java" />
         <option value="$PROJECT_DIR$/src/basic/yuanjing/cyclereference/AClass.java" />
         <option value="$PROJECT_DIR$/src/basic/socket/Client.java" />
         <option value="$PROJECT_DIR$/src/basic/socket/Server.java" />
         <option value="$PROJECT_DIR$/src/basic/str/BufferBuilder.java" />
+        <option value="$PROJECT_DIR$/src/basic/yuanjing/StaticTest.java" />
+        <option value="$PROJECT_DIR$/src/datastruture/sort/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -296,6 +232,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -325,6 +263,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learnJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastruture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ForLearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learnJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datastruture" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,10 +371,6 @@
               <option name="myItemId" value="basic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="str" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -415,11 +389,13 @@
               <option name="myItemId" value="basic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,29 +421,7 @@
       <recent name="pattern.proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Server">
-    <configuration default="false" name="BufferBuilder" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="basic.str.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="basic.str.BufferBuilder" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ForLearn" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.LinkedList">
     <configuration default="false" name="IO" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -542,6 +496,23 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="basic.yuanjing.cyclereference.AClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ForLearn" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LinkedList" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="datastruture.sort.LinkedList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -648,19 +619,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BufferBuilder" />
-      <item index="1" class="java.lang.String" itemvalue="Application.IO" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Server" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AClass" />
+      <item index="0" class="java.lang.String" itemvalue="Application.IO" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestArray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AClass" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LinkedList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Server" />
-        <item index="1" class="java.lang.String" itemvalue="Application.AClass" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.IO" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BufferBuilder" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LinkedList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.AClass" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Server" />
+        <item index="4" class="java.lang.String" itemvalue="Application.IO" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -683,7 +654,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="137" y="9" width="1191" height="751" extended-state="1" />
+    <frame x="137" y="9" width="1191" height="751" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -699,7 +670,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18459795" sideWeight="0.15994236" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25332153" sideWeight="0.6952862" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17714792" sideWeight="0.6952862" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30471382" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -778,30 +749,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/cyclereference/AClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/cyclereference/BClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/ArrSumMax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="44" selection-start="674" selection-end="674" vertical-scroll-proportion="0.41272727" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/Tencent2013.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="330" selection-end="330" vertical-scroll-proportion="0.3181818" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/tencent2012.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="41" selection-start="589" selection-end="589" vertical-scroll-proportion="0.5181818" />
@@ -819,20 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/TestArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/StaticTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/inherit/Supper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="23" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
@@ -843,15 +776,25 @@
     <entry file="file://$PROJECT_DIR$/src/basic/socket/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="30" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/socket/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="63" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_40/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="54" selection-start="2790" selection-end="2790" vertical-scroll-proportion="1.0546448" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/str/BufferBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -865,21 +808,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/cyclereference/AClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+        <state line="15" column="21" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_40/src.zip!/java/net/DualStackPlainSocketImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/StaticTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="54" selection-start="2790" selection-end="2790" vertical-scroll-proportion="1.0546448">
+        <state line="13" column="44" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/str/BufferBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/basic/yuanjing/TestArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="86" selection-start="239" selection-end="239" vertical-scroll-proportion="0.6612022">
+        <state line="12" column="47" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastruture/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastruture/Tencent2013.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="59" selection-start="343" selection-end="343" vertical-scroll-proportion="0.24864864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastruture/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastruture/sort/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="47" selection-start="1184" selection-end="1184" vertical-scroll-proportion="1.5245478">
           <folding />
         </state>
       </provider>

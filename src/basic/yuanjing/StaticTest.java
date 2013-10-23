@@ -11,7 +11,7 @@ public class StaticTest {
     /**
      * final 修饰符修饰的常量必须初始化
      */
-    //final  int a;       error
+    //final  int a;                         error
     public void doSometing() {
         //  static int i;                  error
 
