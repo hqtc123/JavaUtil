@@ -12,20 +12,20 @@ public class MergeSort {
         if (begin < end) {
             int middle = (begin + end) / 2;
             mergeSort(arr, begin, middle);
-            mergeSort(arr, middle+1, end);
+            mergeSort(arr, middle + 1, end);
             merge(arr, begin, middle, end);
         }
     }
 
     public void merge(int[] arr, int start, int middle, int end) {
-        int leng1 = middle - start + 1;
-        int leng2 = end - middle;
+        int leng1 = middle - start;
+        int leng2 = end - middle + 1;
 
         int temA[] = new int[leng1 + 1];
         int temB[] = new int[leng2 + 1];
 
         for (int i = 0; i < leng1; i++) {
-            temA[i] = arr[i + start - 1];
+            temA[i] = arr[i + start];
         }
         temA[leng1] = Integer.MAX_VALUE;
         for (int i = 0; i < leng2; i++) {
@@ -34,7 +34,7 @@ public class MergeSort {
         temB[leng2] = Integer.MAX_VALUE;
 
         int m = 0, n = 0;
-        for (int i = start - 1; i < end; i++) {
+        for (int i = start; i < end; i++) {
             if (temA[m] > temB[n]) {
                 arr[i] = temB[n];
                 n++;

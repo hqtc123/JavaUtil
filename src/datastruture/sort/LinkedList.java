@@ -56,14 +56,28 @@ public class LinkedList {
 
     public void reverse() {
         if (head == null || head.next == null) return;
-
+        Node aNode = head;
+        Node prev = null;
+        Node next = head.next;
+        while (next != null) {
+            aNode.next = prev;
+            prev = aNode;
+            aNode = next;
+            next = next.next;
+        }
+        aNode.next = prev;
+        head=aNode;
     }
 
+
     public static void main(String args[]) {
-        LinkedList aList = new LinkedList(new Node("e", null));
-        aList.addNode(new Node("w", null));
-        aList.addNode(new Node("q", null));
+        LinkedList aList = new LinkedList(new Node("0", null));
         aList.addNode(new Node("a", null));
+        aList.addNode(new Node("b", null));
+        aList.addNode(new Node("c", null));
+        aList.print();
+        System.out.println("");
+        aList.reverse();
         aList.print();
     }
 }

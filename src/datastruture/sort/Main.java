@@ -20,7 +20,7 @@ public class Main {
 //        sort1.datastruture.sort(nums);
 
         MergeSort mergeSort = new MergeSort();
-        mergeSort.mergeSort(nums, 1, nums.length);
+        mergeSort.mergeSort(nums, 0, nums.length-1);
 
         PrintArr.printIntArr(nums);
 
