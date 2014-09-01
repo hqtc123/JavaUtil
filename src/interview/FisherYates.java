@@ -1,4 +1,4 @@
-package shuffle;
+package interview;
 
 import util.PrintArr;
 

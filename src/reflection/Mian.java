@@ -29,6 +29,7 @@ public class Mian {
         test2 = new Demo().getClass();
         test3 = Demo.class;
 
+        assert test != null;
         System.out.println("类名：" + test.getName());
         System.out.println("类名：" + test2.getName());
         System.out.println("类名：" + test3.getName());
