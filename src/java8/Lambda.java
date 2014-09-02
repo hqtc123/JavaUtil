@@ -2,6 +2,8 @@ package java8;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
+import java.util.function.Function;
 
 /**
  * Created by simu-hq on 2014/8/30.
@@ -13,10 +15,12 @@ public class Lambda {
     }
 
     public static void printStrArr(String[] arr) {
-        for (String i : arr) {
-            System.out.print(i + "  ");
-        }
-        System.out.println("=====================");
+//        for (String i : arr) {
+//            System.out.print(i + "  ");
+//        }
+        List<String> strList = Arrays.asList(arr);
+        strList.forEach((str) -> System.out.print(str + " "));
+        System.out.println("\n=====================");
     }
 
     public static void main(String args[]) {
@@ -45,5 +49,21 @@ public class Lambda {
         // 3. define function for comparator
         Arrays.sort(strings, (lhs, rhs) -> lhs.compareTo(rhs));
         Lambda.printStrArr(strings);
+
+        Function<String[], String> arrS = sts -> {
+            String sb = "";
+            for (String str : sts) {
+                sb += str;
+            }
+            return sb;
+
+//            String len = "";
+//            Arrays.asList(sts).forEach((str) -> len += str);
+//            return len;
+        };
+
+        String ss = arrS.apply(strings);
+        System.out.println(ss);
+
     }
 }
