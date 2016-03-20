@@ -7,7 +7,7 @@ package datastruture.sort;
  * Time: 上午11:12
  * To change this template use File | Settings | File Templates.
  */
-public class InsertionSort {
+public class InsertionSort implements Sort{
     public void sort(int[] nums) {
         for (int i = 1; i < nums.length; i++) {
             int t = nums[i];

@@ -7,7 +7,7 @@ package datastruture.sort;
  * Time: 上午10:08
  * To change this template use File | Settings | File Templates.
  */
-public class MergeSort {
+public class MergeSort implements Sort {
     public void mergeSort(int[] arr, int begin, int end) {
         if (begin < end) {
             int middle = (begin + end) / 2;
@@ -43,5 +43,10 @@ public class MergeSort {
                 m++;
             }
         }
+    }
+
+    @Override
+    public void sort(int[] nums) {
+        mergeSort(nums, 0, nums.length - 1);
     }
 }

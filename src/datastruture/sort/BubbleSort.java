@@ -7,7 +7,7 @@ package datastruture.sort;
  * Time: 上午10:15
  * To change this template use File | Settings | File Templates.
  */
-public class BubbleSort {
+public class BubbleSort implements Sort{
     public void sort(int[] arr) {
         for (int i = arr.length - 1; i >= 0; i--) {
             for (int j = 0; j < i; j++) {

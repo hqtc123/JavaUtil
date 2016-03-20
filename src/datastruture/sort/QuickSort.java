@@ -7,7 +7,7 @@ package datastruture.sort;
  * Time: 下午9:52
  * To change this template use File | Settings | File Templates.
  */
-public class QuickSort {
+public class QuickSort implements Sort {
     private int getMiddle(int[] nums, int low, int high) {
         int k = nums[low];
         while (low < high) {
@@ -30,5 +30,9 @@ public class QuickSort {
             sort(num, low, middle - 1);
             sort(num, middle + 1, high);
         }
+    }
+
+    public void sort(int nums[]) {
+        sort(nums, 0, nums.length - 1);
     }
 }

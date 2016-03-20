@@ -35,6 +35,7 @@ public class Tencent2013 {
     }
 
     private void run() {
+        //构建图
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (i == j) {
@@ -52,16 +53,15 @@ public class Tencent2013 {
             depthFirstSearch(i);
         }
 
-        Iterator<String> iterator = set.iterator();
-        while (iterator.hasNext()) {
-            String str = iterator.next();
+        //
+        for (String str : set) {
             if (str.indexOf("4") != 2) {
                 System.out.println(str);
             }
         }
     }
 
-    //iterator  graph
+    //深度优先遍历  graph
     private void depthFirstSearch(int i) {
         visited[i] = true;
         result += b[i];
@@ -71,8 +71,6 @@ public class Tencent2013 {
         for (int j = 0; j < n; j++) {
             if (a[i][j] == 1 && visited[j] == false) {
                 depthFirstSearch(j);
-            } else {
-                continue;
             }
         }
         result = result.substring(0, result.length() - 1);

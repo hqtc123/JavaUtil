@@ -1,5 +1,7 @@
 package datastruture;
 
+import java.util.ArrayList;
+
 /**
  * Created with IntelliJ IDEA.
  * User: heqing02
@@ -69,6 +71,7 @@ public class LinkedList {
         head=aNode;
     }
 
+    public static class A{}
 
     public static void main(String args[]) {
         LinkedList aList = new LinkedList(new Node("0", null));
@@ -79,5 +82,16 @@ public class LinkedList {
         System.out.println("");
         aList.reverse();
         aList.print();
+
+        Node a = new Node("0",null);
+        Node b = new Node("0",null);
+        System.out.println();
+        System.out.println(a.equals(b));
+        A a1 = new A();
+        A a2 = new A();
+        System.out.println(a1.equals(a2));
+        ArrayList la = new ArrayList();
+        ArrayList lb = new ArrayList();
+        System.out.println(la.equals(lb));
     }
 }
