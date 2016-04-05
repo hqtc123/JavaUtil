@@ -30,10 +30,6 @@ public class Tencent2013 {
     private String result = "";
     private TreeSet<String> set = new TreeSet<String>();
 
-    public static void main(String[] args) {
-        new Tencent2013().run();
-    }
-
     private void run() {
         //构建图
         for (int i = 0; i < n; i++) {
@@ -52,7 +48,6 @@ public class Tencent2013 {
         for (int i = 0; i < n; i++) {
             depthFirstSearch(i);
         }
-
         //
         for (String str : set) {
             if (str.indexOf("4") != 2) {
@@ -75,5 +70,9 @@ public class Tencent2013 {
         }
         result = result.substring(0, result.length() - 1);
         visited[i] = false;
+    }
+
+    public static void main(String[] args) {
+        new Tencent2013().run();
     }
 }

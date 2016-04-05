@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 /**
  * Created by simu-hq on 2014/10/11.
  */
-public class Example {
+public class Example implements Comparable{
     @Todo(author = "some body")
     public void doSomething() {
 
@@ -32,5 +32,10 @@ public class Example {
             Author authorAnnotation=method.getAnnotation(Author.class); //wrong
 
         }
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }

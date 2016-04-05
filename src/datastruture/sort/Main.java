@@ -99,5 +99,8 @@ public class Main {
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Integer.MIN_VALUE);
         System.out.println((long)Math.pow(2,31));
+
+        int s = '0';
+        System.out.println(s);
     }
 }
