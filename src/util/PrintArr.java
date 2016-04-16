@@ -14,4 +14,11 @@ public class PrintArr {
         }
         System.out.println();
     }
+
+    public static void printIntArr(String[] arr) {
+        for (String i : arr) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+    }
 }
