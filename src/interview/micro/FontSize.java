@@ -1,6 +1,8 @@
+package interview.micro;
+
 import java.util.Scanner;
 
-public class Main {
+public class FontSize {
     //根据一段的字数算出每段应该占多少行
     public int getRow(int width, int fontSize, int wordNum) {
         int wordsPerRow = width / fontSize;
@@ -41,7 +43,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main main = new Main();
+        FontSize fontSize = new FontSize();
         Scanner sc = new Scanner(System.in);
         if (sc.hasNextLine()) {
             int num = Integer.parseInt(sc.nextLine());
@@ -63,7 +65,7 @@ public class Main {
                     wordPerP[j] = Integer.parseInt(arr[j]);
                 }
 
-                System.out.println(main.getMaxSize(pNum, wordPerP, width, height, page));
+                System.out.println(fontSize.getMaxSize(pNum, wordPerP, width, height, page));
             }
         }
     }
